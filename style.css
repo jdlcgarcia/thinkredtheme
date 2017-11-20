@@ -6,3 +6,8 @@ Description: Thinkred theme based on Flexbox CSS
 Author: JLDCgarcia
 Author URI: http://jdlcgarcia.es
 */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
