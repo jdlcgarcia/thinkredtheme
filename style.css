@@ -11,3 +11,128 @@ Author URI: http://jdlcgarcia.es
     margin: 0;
     box-sizing: border-box;
 }
+
+header {
+    display: flex;
+    height: 75px;
+}
+
+header .logo {
+    width: 30%;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 70%;
+    align-items: center;
+}
+
+main {
+    display: flex;
+}
+
+section {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+footer {
+    display: flex;
+}
+
+.infoarticulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-container {
+    color: #fff;
+    background-color: #992114;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    color: #da560f;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.photo-grid {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.social,
+.logo,
+.subscribe {
+    border: 1px solid #da2f11;
+}
+
+.photo-grid-item {
+    border: 1px solid #fff;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+
+.widget-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.widget {
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.widget .titulo {
+    color: #da560f;
+    background-color: #992114;
+}
+
+.widget .cuerpo {
+    color: #992114;
+    background-color: #da560f;
+    height: 100px;
+}

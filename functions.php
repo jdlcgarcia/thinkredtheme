@@ -83,4 +83,9 @@ function create_post_type_learning()
     register_post_type($post_type, $args);
 }
 
-;
+function theme_name_scripts()
+{
+    wp_enqueue_style('style-name', get_stylesheet_uri());
+}
+
+add_action('wp_enqueue_scripts', 'theme_name_scripts');
